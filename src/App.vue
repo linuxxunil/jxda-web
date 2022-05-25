@@ -1,21 +1,35 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+<script setup lang="ts">
+//import HelloWorld from './components/HelloWorld.vue';
+//import TheWelcome from './components/TheWelcome.vue';
+import Login from './views/login/index.vue';
+import zhCn from "element-plus/es/locale/lang/zh-cn";
+import en from "element-plus/es/locale/lang/en";
+
 </script>
 
 <template>
+ <!--
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <Login  />
     </div>
   </header>
-
+    -->
   <main>
-    <TheWelcome />
+    <Login  />
   </main>
+ <!--
+  <el-config-provider :locale="locale">
+    <router-view />
+  </el-config-provider>
+-->
 </template>
+
+
+
+
+
 
 <style>
 @import './assets/base.css';

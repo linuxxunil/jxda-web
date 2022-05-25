@@ -7,7 +7,12 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
-    "vue": "^3.2.33"
+    "vue": "^3.2.33",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.12",
+    "element-plus": "^2.2.2",
+    "echarts": "^5.2.2",
+    "axios": "^0.24.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
